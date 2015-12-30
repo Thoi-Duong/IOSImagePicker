@@ -23,7 +23,7 @@
                                 <animations/>
                                 <state key="normal" image="paper"/>
                                 <connections>
-                                    <action selector="paperAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="phg-Td-HHp"/>
+                                    <action selector="PlayAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PQM-WM-YIb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nos-Dd-osx">
@@ -31,7 +31,7 @@
                                 <animations/>
                                 <state key="normal" image="rockbutton"/>
                                 <connections>
-                                    <action selector="rockAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LxN-mB-v0o"/>
+                                    <action selector="PlayAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GqW-a4-tWe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFi-Tt-rhc">
@@ -39,7 +39,7 @@
                                 <animations/>
                                 <state key="normal" image="scissors"/>
                                 <connections>
-                                    <action selector="scissorsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DTb-7l-TaQ"/>
+                                    <action selector="PlayAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F7B-cU-o4J"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -102,14 +102,12 @@
                         <viewControllerLayoutGuide type="bottom" id="5vJ-hk-EhU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="pu8-QY-fbw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RockCrushesScissors" translatesAutoresizingMaskIntoConstraints="NO" id="WhF-pe-Kro">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="97" y="212" width="256" height="192"/>
-                                </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cut it off" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uPW-U7-9hb">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
@@ -117,17 +115,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="154" y="399" width="67" height="21"/>
-                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Oq-WC-AB4">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" image="icon75x75"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="150" y="468" width="75" height="75"/>
-                                </variation>
                                 <connections>
                                     <action selector="BackAction" destination="ieg-Mv-egU" eventType="touchUpInside" id="LfA-jQ-msR"/>
                                 </connections>
@@ -150,12 +142,12 @@
                                 <exclude reference="4Oq-WC-AB4"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="CxE-0E-4G9"/>
-                                <exclude reference="t5K-a0-Eeo"/>
-                                <exclude reference="15O-EV-oUI"/>
-                                <exclude reference="wa8-86-BDT"/>
                                 <exclude reference="bg3-OU-V47"/>
                                 <exclude reference="iDA-pn-nE1"/>
+                                <exclude reference="15O-EV-oUI"/>
+                                <exclude reference="wa8-86-BDT"/>
+                                <exclude reference="CxE-0E-4G9"/>
+                                <exclude reference="t5K-a0-Eeo"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -165,12 +157,12 @@
                                 <include reference="4Oq-WC-AB4"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="CxE-0E-4G9"/>
-                                <include reference="t5K-a0-Eeo"/>
-                                <include reference="15O-EV-oUI"/>
-                                <include reference="wa8-86-BDT"/>
                                 <include reference="bg3-OU-V47"/>
                                 <include reference="iDA-pn-nE1"/>
+                                <include reference="15O-EV-oUI"/>
+                                <include reference="wa8-86-BDT"/>
+                                <include reference="CxE-0E-4G9"/>
+                                <include reference="t5K-a0-Eeo"/>
                             </mask>
                         </variation>
                     </view>

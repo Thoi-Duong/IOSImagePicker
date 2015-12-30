@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E8080AE4A010BB58A494A30D3FD6BD8C44094BE7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D15DC99B27373481AB939F41568A702FDADE3445" : 0,
+    "E8080AE4A010BB58A494A30D3FD6BD8C44094BE7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3DE32E65-BC7E-4C82-AFF0-9F939E9B7A1E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D15DC99B27373481AB939F41568A702FDADE3445" : "..",
+    "E8080AE4A010BB58A494A30D3FD6BD8C44094BE7" : "ImagePicker\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ImagePicker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ImagePicker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dnhthooi\/IOSPlaySounds.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D15DC99B27373481AB939F41568A702FDADE3445"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dnhthooi\/IOSImagePicker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E8080AE4A010BB58A494A30D3FD6BD8C44094BE7"
+    }
+  ]
+}

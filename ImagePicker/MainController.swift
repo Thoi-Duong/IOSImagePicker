@@ -51,26 +51,23 @@ class MainController: UIViewController {
         
     }
     
-    @IBAction func rockAction(sender:UIButton!){
+    @IBAction func PlayAction(sender:UIButton!){
+        let random:Int = Int(arc4random_uniform(3) + 1)
+        
+        if(random == 1) {
+            performSegueWithIdentifier("rock", sender: self)
+        }
+        
+        if(random == 2){
+            performSegueWithIdentifier("paper", sender: self)
+        }
+        
+        if(random == 3){
+            performSegueWithIdentifier("scissors", sender: self)
+        }
+        
+    }
 
-        performSegueWithIdentifier("rock", sender: self)
-
-        
-    }
-    
-    @IBAction func paperAction(sender:UIButton!){
-        
-        performSegueWithIdentifier("paper", sender: self)
-        
-        
-    }
-    
-    @IBAction func scissorsAction(sender:UIButton!){
-        
-        performSegueWithIdentifier("scissors", sender: self)
-        
-        
-    }
 
 }
 
